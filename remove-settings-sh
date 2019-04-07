@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## https://www.youtube.com/watch?v=UllZQyBos2s
+## Works for 2018+ on OSX
+killall "Camtasia 2018"
+ls -alh ~/Library/Application\ Support/.settings
+rm  ~/Library/Application\ Support/.settings
+ls -alh ~/Library/Application\ Support/.settings
+
